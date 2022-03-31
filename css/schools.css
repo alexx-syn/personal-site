@@ -1,0 +1,61 @@
+.Schools {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.Schools .HeaderText {
+  font-family: 'Bebas Neue', sans-serif;
+  color: var(--text-color-title);
+
+  font-size: var(--text-big-size);
+}
+
+.Schools .SchoolCards {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  gap: 30px;
+
+  justify-content: center;
+}
+
+.SchoolCards .SchoolCard {
+  display: flex;
+  flex-direction: column;
+
+  gap: 7px;
+  border: 2px solid var(--second-color);
+
+  text-align: center;
+  flex-wrap: wrap;
+
+  align-items: center;
+  padding: 40px 10px 40px 10px;
+
+  transition: ease-in-out;
+  transition-duration: .2s;
+
+  max-width: var(--max-card-width);
+}
+
+.SchoolCard:hover {
+  background-color: var(--second-color);
+}
+
+.SchoolCard .BodyText {
+  font-family: 'Bebas Neue', sans-serif;
+  color: var(--text-color-title);
+
+  font-size: var(--text-sub-size);
+}
+
+.SchoolCard .TinyText {
+  font-family: 'Bebas Neue', sans-serif;
+  color: var(--text-color-desc);
+
+  font-size: var(--text-tiny-size);
+}

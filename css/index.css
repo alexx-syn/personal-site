@@ -1,0 +1,45 @@
+@import './vars.css';
+@import './header.css';
+@import './schools.css';
+@import './buttons.css';
+@import './projects.css';
+
+html, body {
+  background-color: var(--main-color);
+  margin-bottom: 20px;
+}
+
+a {
+  color: var(--ranked-color) !important;
+  text-decoration: none;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 25px;
+}
+
+.GreenText {
+  color: var(--qualified-color)
+}
+
+.BlueText {
+  color: var(--ranked-color)
+}
+
+.TestCircle2 {
+  width: 170px;
+  height: 170px;
+
+  border-radius: 50%;
+  border: 3px solid var(--third-color);
+
+  transition: ease-in-out;
+  transition-duration: .3s;
+}
+
+.TestCircle2:hover {
+  border-radius: 40%;
+}

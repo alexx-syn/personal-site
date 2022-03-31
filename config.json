@@ -1,0 +1,108 @@
+{
+  "name": "Alexander Montoya",
+
+  "socials": [
+    {
+      "icon": "facebook",
+      "link": "https://facebook.com/chocbat"
+    },
+
+    {
+      "icon": "youtube",
+      "link": "https://www.youtube.com/channel/UCwfosoNxXn9RD05BJvVf8rA"
+    },
+
+    {
+      "icon": "github",
+      "link": "https://github.com/Alexander9673"
+    }
+  ],
+
+  "schools": [
+    {
+      "icon": "cl",
+      "name": "Cherished Lambed Community Christian School",
+      "years": "Nursery - Kinder 2"
+    },
+    
+    {
+      "icon": "gh1es",
+      "name": "Gordon heights 1 Elementary School",
+      "years": "1st Grade - 6th Grade"
+    },
+
+    {
+      "icon": "sjc",
+      "name": "St. Joseph's College Olongapo Inc.",
+      "years": "7th Grade - 11th Grade"
+    }
+  ],
+
+  "projects": {
+    "pogtopia": {
+      "icon": "pogtopia",
+      "name": "Pogtopia",
+      "id": "pogtopia",
+
+      "projects": [
+        {
+          "owner": "Pogtopia",
+          "repo": "Server",
+          "desc": "A private server for Growtopia by Alexander9673. Discord: Alexander#6398"
+        },
+
+        {
+          "owner": "Pogtopia",
+          "repo": "itemsdat",
+          "desc": "Items.dat reader/writer written purely with typescript."
+        },
+
+        {
+          "owner": "Pogtopia",
+          "repo": "GrowSockets",
+          "desc": "A simple to use, high-level api for creating private servers for Growtopia with NodeJS."
+        }
+      ]
+    },
+
+    "beef": {
+      "icon": "beef",
+      "name": "BeefPS",
+      "id": "beef",
+
+      "projects": [
+        {
+          "owner": "beefps",
+          "repo": "Master",
+          "desc": "Master server for BeefPS written with Typescript."
+        },
+
+        {
+          "owner": "beefps",
+          "repo": "Http",
+          "desc": "A temporary HTTP server for the Beef Private server."
+        },
+
+        {
+          "owner": "beefps",
+          "repo": "Website",
+          "desc": "Website for BeefPS written with React using the Next.js framework."
+        }
+      ]
+    },
+
+    "gtjs": {
+      "icon": "gtjs",
+      "name": "Growtopia.js",
+      "id": "gtjs",
+
+      "projects": [
+        {
+          "owner": "GrowtopiaJS",
+          "repo": "Growtopia.js",
+          "desc": "The first ever Growtopia Private Server coded with NodeJS!"
+        }
+      ]
+    }
+  }
+}

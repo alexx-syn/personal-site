@@ -1,0 +1,97 @@
+
+.Header {
+  background-color: var(--main-color);
+  color: var(--text-color-desc); /* default color */
+
+  margin: 30px;
+
+  margin-left: 100px;
+  margin-right: 100px;
+
+  gap: 10px;
+  font-family: 'Bebas Neue', sans-serif;
+
+  font-size: var(--text-sub-size);
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Header .Profiles {
+  width: 256px;
+  height: 256px;
+
+  position: relative;
+}
+
+.Profiles .Profile {
+  width: 256px;
+  height: 256px;
+
+  border-radius: 100%;
+  border: 3px solid var(--third-color);
+
+  background-color: var(--alt-color);
+  z-index: 2;
+
+  transition: ease-in-out;
+  transition-duration: .3s;
+
+  object-fit: cover;
+
+  position: absolute;
+}
+
+.Profiles .Profile:hover {
+  opacity: 0;
+}
+
+.Header .AltProfile {
+  width: 256px;
+  height: 256px;
+
+  border-radius: 100%;
+  border: 3px solid var(--third-color);
+
+  z-index: 1;
+
+  object-fit: cover;
+  object-position: 0px -32px;
+}
+
+.Header .TextInfo {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0px;
+  margin-top: auto;
+
+  margin-bottom: auto;
+}
+
+.Header .BigText {
+  font-size: var(--text-big-size);
+  color: var(--text-color-title);
+}
+
+.Header .SocialIcon {
+  transition: ease-in-out;
+  transition-duration: .2s;
+
+  width: 32px;
+  height: 32px;
+}
+
+.Header .SocialIcon:hover {
+  transform: scale(110%);
+}
+
+@media (max-width: 900px) {
+  .Header {
+    justify-content: center;
+    text-align: center;
+
+    margin: 0px;
+  }
+}

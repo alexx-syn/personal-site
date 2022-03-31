@@ -1,0 +1,13 @@
+.Btn {
+  padding: 10px 25px 10px 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  color: var(--text-color-title);
+  font-size: var(--text-micro-size);
+
+  cursor: pointer;
+}
+
+.Btn-Blue {
+  background-color: var(--ranked-color);
+}

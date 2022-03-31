@@ -1,0 +1,23 @@
+:root {
+  --main-color  : #151212;
+  --second-color: #1f1a1a;
+  --third-color : #453E3E; 
+  --alt-color   : #C4C4C4;
+  --fifth-color : #2D2828;
+
+  --qualified-color: #66DA76;
+  --ranked-color   : #4282FF;
+
+  --text-color-title: #FFFFFF;
+  --text-color-desc : #D6D6D6;
+
+  --text-big-size  : 48px;
+  --text-sub-size  : 22px;
+  --text-tiny-size : 18px;
+  --text-micro-size: 14px;
+
+  --text-proj-link-size: 18px;
+  --text-proj-desc-size: 14px;
+
+  --max-card-width: 240px;
+}

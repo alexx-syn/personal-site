@@ -1,0 +1,55 @@
+.ProjectCardModifier {
+  padding: 40px 30px 40px 30px !important;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  gap: 20px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Projects .ProjectContainer {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Projects .LineDivider {
+  width: 100%;
+  height: 1px;
+
+  background-color: var(--third-color);
+}
+
+.Projects .Project {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.Project .HeaderLink {
+  /* font defaults */
+  font-size: var(--text-proj-link-size) !important;
+  color: var(--ranked-color);
+
+  display: flex;
+  flex-direction: row;
+
+  gap: 5px;  
+}
+
+.Project .Description {
+  font-size: var(--text-proj-desc-size);
+}
+
+.HeaderLink .Divider {
+  color: var(--text-color-desc) !important;
+}
