@@ -46,14 +46,14 @@
   background-color: var(--second-color);
 }
 
-.SchoolCard .BodyText {
+.Schools .BodyText {
   font-family: 'Bebas Neue', sans-serif;
   color: var(--text-color-title);
 
   font-size: var(--text-sub-size);
 }
 
-.SchoolCard .TinyText {
+.Schools .TinyText {
   font-family: 'Bebas Neue', sans-serif;
   color: var(--text-color-desc);
 

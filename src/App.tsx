@@ -1,6 +1,9 @@
 import HeaderComponent from './components/HeaderComponent'
 import Schools from './components/SchoolsComponent'
+
 import Projects from './components/ProjectsComponent'
+import Media from './components/MediaComponent'
+
 import { MantineProvider } from '@mantine/core'
 
 function App() {
@@ -8,8 +11,9 @@ function App() {
     <MantineProvider theme={{ colorScheme: 'dark' }}>
       <div className='Content'>
         <HeaderComponent />
+        <Media />
+
         <Schools />
-        
         <Projects />
       </div>
     </MantineProvider>
